@@ -1,0 +1,28 @@
+servers: 
+  android:  
+    ip: 127.0.0.1
+    port: 4723
+    external: false
+    
+    arguments:
+      log_level: DEBUG
+      log_time_stamp: true
+      local_time_zone: true
+      suppress_adb_kill_server: true
+    
+devices: 
+  android: 
+    platform_type: ANDROID
+    device_type: REAL
+    device_name: NOTE2
+    device_version: 4.4.2
+    app_type: HYBRID
+    automation_name: APPIUM
+    app_package: com.facebook.katana
+    app_activity: com.facebook.katana.LoginActivity
+    session_timeout: 6000
+    clear_system_files: true
+    no_reset: false
+    delay_before_tap: 1
+    delay_after_tap: 3
+   

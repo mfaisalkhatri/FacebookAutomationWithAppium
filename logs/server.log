@@ -1,0 +1,144 @@
+2017-10-28 07:58:57:279 - info: [Appium] Welcome to Appium v1.7.1
+2017-10-28 07:58:57:283 - info: [Appium] Non-default server args:
+2017-10-28 07:58:57:285 - info: [Appium]   address: 127.0.0.1
+2017-10-28 07:58:57:286 - info: [Appium]   sessionOverride: true
+2017-10-28 07:58:57:294 - info: [Appium]   log: F:\Eclipse_Oxygen\WorkSpace\fbTest\logs\server.log
+2017-10-28 07:58:57:294 - info: [Appium]   logTimestamp: true
+2017-10-28 07:58:57:296 - info: [Appium]   localTimezone: true
+2017-10-28 07:58:57:297 - info: [Appium]   suppressKillServer: true
+2017-10-28 07:58:57:298 - info: [Appium]   defaultCapabilities: {
+2017-10-28 07:58:57:299 - info: [Appium]     noReset: false
+2017-10-28 07:58:57:300 - info: [Appium]     newCommandTimeout: 120
+2017-10-28 07:58:57:302 - info: [Appium]     fullReset: false
+2017-10-28 07:58:57:302 - info: [Appium]   }
+2017-10-28 07:58:57:306 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2017-10-28 07:58:57:310 - info: [Appium]   noReset: 'false'
+2017-10-28 07:58:57:310 - info: [Appium]   newCommandTimeout: '120'
+2017-10-28 07:58:57:310 - info: [Appium]   fullReset: 'false'
+2017-10-28 07:58:57:421 - info: [Appium] Appium REST http interface listener started on 127.0.0.1:4723
+2017-10-28 07:58:57:618 - info: [HTTP] --> GET /wd/hub/status {}
+2017-10-28 07:58:57:622 - info: [debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
+2017-10-28 07:58:57:628 - info: [debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.7.1","revision":null}}
+2017-10-28 07:58:57:637 - info: [HTTP] <-- GET /wd/hub/status 200 15 ms - 83 
+2017-10-28 07:58:59:023 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"appActivity":"com.facebook.katana.LoginActivity","appPackage":"com.facebook.katana","noReset":false,"clearSystemFiles":true,"newCommandTimeout":6000,"platformVersion":"4.4.2","automationName":"Appium","platformName":"Android","deviceName":"NOTE2","fullReset":false},"requiredCapabilities":{},"capabilities":{"desiredCapabilities":{"appActivity":"com.facebook.katana.LoginActivity","appPackage":"com.facebook.katana","noReset":false,"clearSystemFiles":true,"newCommandTimeout":6000,"platformVersion":"4.4.2","automationName":"Appium","platformName":"Android","deviceName":"NOTE2","fullReset":false},"requiredCapabilities":{},"alwaysMatch":{"platformName":"Android"},"firstMatch":[]}}
+2017-10-28 07:58:59:024 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"appActivity":"com.facebook.katana.LoginActivity","appPackage":"com.facebook.katana","noReset":false,"clearSystemFiles":true,"newCommandTimeout":6000,"platformVersion":"4.4.2","automationName":"Appium","platformName":"Android","deviceName":"NOTE2","fullReset":false},{},{"desiredCapabilities":{"appActivity":"com.facebook.katana.LoginActivity","appPackage":"com.facebook.katana","noReset":false,"clearSystemFiles":true,"newCommandTimeout":6000,"platformVersion":"4.4.2","automationName":"Appium","platformName":"Android","deviceName":"NOTE2","fullReset":false},"requiredCapabilities":{},"alwaysMatch":{"platformName":"Android"},"firstMatch":[]}]
+2017-10-28 07:58:59:027 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1509157739026 (07:58:59 GMT+0530 (India Standard Time))
+2017-10-28 07:58:59:036 - info: [Appium] Creating new AndroidDriver (v1.28.1) session
+2017-10-28 07:58:59:037 - info: [Appium] Capabilities:
+2017-10-28 07:58:59:038 - info: [Appium]   appActivity: 'com.facebook.katana.LoginActivity'
+2017-10-28 07:58:59:039 - info: [Appium]   appPackage: 'com.facebook.katana'
+2017-10-28 07:58:59:039 - info: [Appium]   noReset: false
+2017-10-28 07:58:59:040 - info: [Appium]   clearSystemFiles: true
+2017-10-28 07:58:59:040 - info: [Appium]   newCommandTimeout: 6000
+2017-10-28 07:58:59:041 - info: [Appium]   platformVersion: '4.4.2'
+2017-10-28 07:58:59:041 - info: [Appium]   automationName: 'Appium'
+2017-10-28 07:58:59:041 - info: [Appium]   platformName: 'Android'
+2017-10-28 07:58:59:041 - info: [Appium]   deviceName: 'NOTE2'
+2017-10-28 07:58:59:042 - info: [Appium]   fullReset: false
+2017-10-28 07:58:59:066 - info: [BaseDriver] Session created with session id: 9def8001-7976-4a2d-8fcc-0e52b63fc71b
+2017-10-28 07:58:59:070 - info: [debug] [AndroidDriver] Getting Java version
+2017-10-28 07:58:59:293 - info: [AndroidDriver] Java version is: 1.8.0_151
+2017-10-28 07:58:59:299 - info: [ADB] Checking whether adb is present
+2017-10-28 07:58:59:306 - info: [ADB] Using adb.exe from F:\Android\platform-tools\adb.exe
+2017-10-28 07:58:59:307 - info: [AndroidDriver] Retrieving device list
+2017-10-28 07:58:59:308 - info: [debug] [ADB] Trying to find a connected android device
+2017-10-28 07:58:59:309 - info: [debug] [ADB] Getting connected devices...
+2017-10-28 07:58:59:354 - info: [debug] [ADB] 1 device(s) connected
+2017-10-28 07:58:59:355 - info: [AndroidDriver] Looking for a device with Android '4.4.2'
+2017-10-28 07:58:59:356 - info: [debug] [ADB] Setting device id to 192.168.0.106:5555
+2017-10-28 07:58:59:356 - info: [ADB] Getting device platform version
+2017-10-28 07:58:59:357 - info: [debug] [ADB] Getting connected devices...
+2017-10-28 07:58:59:396 - info: [debug] [ADB] 1 device(s) connected
+2017-10-28 07:58:59:401 - info: [debug] [ADB] Running 'F:\Android\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.0.106:5555","shell","getprop","ro.build.version.release"]
+2017-10-28 07:58:59:624 - info: [debug] [ADB] Current device property 'ro.build.version.release': 4.4.2
+2017-10-28 07:58:59:625 - info: [AndroidDriver] Using device: 192.168.0.106:5555
+2017-10-28 07:58:59:626 - info: [ADB] Checking whether adb is present
+2017-10-28 07:58:59:629 - info: [ADB] Using adb.exe from F:\Android\platform-tools\adb.exe
+2017-10-28 07:58:59:630 - info: [debug] [ADB] Setting device id to 192.168.0.106:5555
+2017-10-28 07:58:59:631 - info: [AndroidDriver] App file was not listed, instead we're going to run com.facebook.katana directly on the device
+2017-10-28 07:58:59:632 - info: [debug] [AndroidDriver] Checking whether package is present on the device
+2017-10-28 07:58:59:633 - info: [debug] [ADB] Getting connected devices...
+2017-10-28 07:58:59:676 - info: [debug] [ADB] 1 device(s) connected
+2017-10-28 07:58:59:676 - info: [debug] [ADB] Running 'F:\Android\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.0.106:5555","shell","pm","list","packages","com.facebook.katana"]
+2017-10-28 07:59:02:647 - info: [AndroidDriver] Starting Android session
+2017-10-28 07:59:02:652 - info: [debug] [ADB] Running 'F:\Android\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.0.106:5555","wait-for-device"]
+2017-10-28 07:59:02:706 - info: [debug] [ADB] Getting connected devices...
+2017-10-28 07:59:02:774 - info: [debug] [ADB] 1 device(s) connected
+2017-10-28 07:59:02:775 - info: [debug] [ADB] Running 'F:\Android\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.0.106:5555","shell","echo","ping"]
+2017-10-28 07:59:03:774 - info: [debug] [Logcat] Starting logcat capture
+2017-10-28 07:59:04:877 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2017-10-28 07:59:04:881 - info: [debug] [ADB] Uninstalling and re-installing 'io.appium.settings'
+2017-10-28 07:59:04:883 - info: [debug] [ADB] Uninstalling io.appium.settings
+2017-10-28 07:59:04:885 - info: [debug] [ADB] Getting install status for io.appium.settings
+2017-10-28 07:59:04:886 - info: [debug] [ADB] Getting connected devices...
+2017-10-28 07:59:04:925 - info: [debug] [ADB] 1 device(s) connected
+2017-10-28 07:59:04:926 - info: [debug] [ADB] Running 'F:\Android\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.0.106:5555","shell","pm","list","packages","io.appium.settings"]
+2017-10-28 07:59:09:973 - info: [debug] [ADB] App is installed
+2017-10-28 07:59:09:975 - info: [debug] [ADB] Getting connected devices...
+2017-10-28 07:59:10:024 - info: [debug] [ADB] 1 device(s) connected
+2017-10-28 07:59:10:025 - info: [debug] [ADB] Running 'F:\Android\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.0.106:5555","shell","am","force-stop","io.appium.settings"]
+2017-10-28 07:59:18:003 - info: [debug] [ADB] Running 'F:\Android\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.0.106:5555","uninstall","io.appium.settings"]
+2017-10-28 07:59:27:906 - info: [debug] [ADB] ADB command output: Success
+2017-10-28 07:59:27:907 - info: [ADB] io.appium.settings was successfully uninstalled
+2017-10-28 07:59:27:907 - info: [debug] [ADB] Getting install status for io.appium.settings
+2017-10-28 07:59:27:908 - info: [debug] [ADB] Getting connected devices...
+2017-10-28 07:59:27:963 - info: [debug] [ADB] 1 device(s) connected
+2017-10-28 07:59:27:964 - info: [debug] [ADB] Running 'F:\Android\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.0.106:5555","shell","pm","list","packages","io.appium.settings"]
+2017-10-28 07:59:31:382 - info: [debug] [ADB] App is not installed
+2017-10-28 07:59:31:383 - info: [debug] [ADB] App 'C:\Users\DELL\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\app\build\outputs\apk\settings_apk-debug.apk' not installed. Installing
+2017-10-28 07:59:31:386 - info: [debug] [ADB] Running 'F:\Android\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.0.106:5555","install","C:\\Users\\DELL\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\io.appium.settings\\app\\build\\outputs\\apk\\settings_apk-debug.apk"]
+2017-10-28 08:00:31:401 - info: [debug] [ADB] Running 'F:\Android\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.0.106:5555","install","C:\\Users\\DELL\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\io.appium.settings\\app\\build\\outputs\\apk\\settings_apk-debug.apk"]
+2017-10-28 08:01:31:415 - warn: [AndroidDriver] Ignored error while installing Appium Settings helper: 'Error executing adbExec. Original error: 'Command 'F\:\\Android\\platform-tools\\adb.exe -P 5037 -s 192.168.0.106\:5555 install C\:\\Users\\DELL\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\io.appium.settings\\app\\build\\outputs\\apk\\settings_apk-debug.apk' timed out after 60000ms'; Stderr: ''; Code: 'null''. Expect some Appium features may not work as expected unless this problem is fixed.
+2017-10-28 08:01:31:422 - info: [debug] [ADB] Getting connected devices...
+2017-10-28 08:01:31:476 - info: [debug] [ADB] 1 device(s) connected
+2017-10-28 08:01:31:477 - info: [debug] [ADB] Running 'F:\Android\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.0.106:5555","shell","getprop","ro.build.version.sdk"]
+2017-10-28 08:01:33:133 - info: [debug] [ADB] Current device property 'ro.build.version.sdk': 19
+2017-10-28 08:01:33:134 - info: [debug] [ADB] Device API level: 19
+2017-10-28 08:01:33:136 - info: [debug] [ADB] Getting connected devices...
+2017-10-28 08:01:33:183 - info: [debug] [ADB] 1 device(s) connected
+2017-10-28 08:01:33:183 - info: [debug] [ADB] Running 'F:\Android\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.0.106:5555","shell","dumpsys","package","io.appium.settings"]
+2017-10-28 08:01:44:193 - info: [debug] [ADB] Getting connected devices...
+2017-10-28 08:01:44:235 - info: [debug] [ADB] 1 device(s) connected
+2017-10-28 08:01:44:236 - info: [debug] [ADB] Running 'F:\Android\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.0.106:5555","shell","ps"]
+2017-10-28 08:02:04:240 - info: [debug] [ADB] Running 'F:\Android\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.0.106:5555","shell","ps"]
+2017-10-28 08:02:24:291 - error: [ADB] Error: Error finding if process exists. Original error: Error executing adbExec. Original error: 'Command 'F\:\\Android\\platform-tools\\adb.exe -P 5037 -s 192.168.0.106\:5555 shell ps' timed out after 20000ms'; Stderr: ''; Code: 'null'
+    at Object.wrappedLogger.errorAndThrow (../../lib/logging.js:63:13)
+    at ADB.callee$0$0$ (../../../lib/tools/adb-commands.js:822:9)
+    at tryCatch (C:\Users\DELL\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\DELL\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\DELL\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\DELL\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>
+ Error: Error finding if process exists. Original error: Error executing adbExec. Original error: 'Command 'F\:\\Android\\platform-tools\\adb.exe -P 5037 -s 192.168.0.106\:5555 shell ps' timed out after 20000ms'; Stderr: ''; Code: 'null'
+    at Object.wrappedLogger.errorAndThrow (../../lib/logging.js:63:13)
+    at ADB.callee$0$0$ (../../../lib/tools/adb-commands.js:822:9)
+    at tryCatch (C:\Users\DELL\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\DELL\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\DELL\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\DELL\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>
+2017-10-28 08:02:24:292 - warn: [AndroidDriver] Failed to launch settings app: Error finding if process exists. Original error: Error executing adbExec. Original error: 'Command 'F\:\\Android\\platform-tools\\adb.exe -P 5037 -s 192.168.0.106\:5555 shell ps' timed out after 20000ms'; Stderr: ''; Code: 'null'
+2017-10-28 08:02:24:293 - info: [debug] [ADB] Device API level: 19
+2017-10-28 08:02:24:293 - info: [debug] [ADB] Getting connected devices...
+2017-10-28 08:02:24:335 - info: [debug] [ADB] 1 device(s) connected
+2017-10-28 08:02:24:336 - info: [debug] [ADB] Running 'F:\Android\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.0.106:5555","shell","settings","put","secure","mock_location","1"]
+2017-10-28 08:02:44:341 - info: [debug] [ADB] Running 'F:\Android\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.0.106:5555","shell","settings","put","secure","mock_location","1"]
+2017-10-28 08:03:04:350 - warn: [AndroidDriver] Unable to set mock location for app 'io.appium.settings': Error executing adbExec. Original error: 'Command 'F\:\\Android\\platform-tools\\adb.exe -P 5037 -s 192.168.0.106\:5555 shell settings put secure mock_location 1' timed out after 20000ms'; Stderr: ''; Code: 'null'
+2017-10-28 08:03:04:352 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2017-10-28 08:03:04:354 - info: [debug] [ADB] Running 'F:\Android\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.0.106:5555","install","C:\\Users\\DELL\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-unlock\\bin\\unlock_apk-debug.apk"]
+2017-10-28 08:03:14:601 - error: [Logcat] Logcat terminated with code 0, signal null
+2017-10-28 08:04:04:374 - info: [debug] [ADB] Running 'F:\Android\platform-tools\adb.exe' with args: ["-P",5037,"-s","192.168.0.106:5555","install","C:\\Users\\DELL\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-unlock\\bin\\unlock_apk-debug.apk"]
+2017-10-28 08:05:04:387 - info: [debug] [AndroidDriver] Shutting down Android driver
+2017-10-28 08:05:04:389 - info: [debug] [AndroidDriver] Called deleteSession but bootstrap wasn't active
+2017-10-28 08:05:04:402 - info: [debug] [Logcat] Stopping logcat capture
+2017-10-28 08:05:04:405 - info: [debug] [Logcat] Logcat already stopped
+2017-10-28 08:05:04:408 - info: [debug] [ADB] Getting connected devices...
+2017-10-28 08:05:04:450 - info: [debug] [ADB] 0 device(s) connected
+2017-10-28 08:05:04:471 - error: [MJSONWP] Encountered internal error running command: Error: Error executing adbExec. Original error: 'Command 'F\:\\Android\\platform-tools\\adb.exe -P 5037 -s 192.168.0.106\:5555 install C\:\\Users\\DELL\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-unlock\\bin\\unlock_apk-debug.apk' timed out after 60000ms'; Stderr: ''; Code: 'null'
+    at ADB.execFunc$ (../../../lib/tools/system-calls.js:317:13)
+    at tryCatch (C:\Users\DELL\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\DELL\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\DELL\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\DELL\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>
+2017-10-28 08:05:04:475 - info: [HTTP] <-- POST /wd/hub/session 500 365452 ms - 465 
