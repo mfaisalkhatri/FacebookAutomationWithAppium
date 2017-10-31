@@ -53,11 +53,11 @@ public class FbLoginTestWithCoteafsAppium {
 
 		final FBLoginActivity login = new FBLoginActivity (this.device);
 		login.onElement ("UserName")
-		.enterText ("faisal.khatri@ymail.com");
+		.enterText ("username@gmail.com");
 
 		login.onDevice().captureScreenshot();
 		login.onElement ("Password")
-		.enterText ("mh047268");
+		.enterText ("password123");
 
 		login.onDevice().captureScreenshot();
 		login.onElement ("LgnBtn")
