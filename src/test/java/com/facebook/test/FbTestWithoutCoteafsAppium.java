@@ -38,13 +38,13 @@ public class FbTestWithoutCoteafsAppium {
 		
 		tact.tap(lgn).perform();
 		lgn.clear();
-		lgn.sendKeys("faisal.khatri@ymail.com");
+		lgn.sendKeys("username@gmail.com");
 		
 		MobileElement pwd = driver.findElement(By.id("com.facebook.katana:id/login_password"));
 		
 		tact.tap(pwd).perform();
 		pwd.clear();
-		pwd.sendKeys("mh047268");
+		pwd.sendKeys("pssword123");
 		
 		MobileElement lgnBtn = driver.findElement(By.id("com.facebook.katana:id/login_login"));
 		tact.tap(lgnBtn).waitAction(Duration.ofSeconds(3)).perform();
